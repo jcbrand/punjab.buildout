@@ -12,7 +12,7 @@ It uses [mr.developer](https://pypi.python.org/pypi/mr.developer) to check out P
 
 Make sure you have the FFI development libraries installed, on Ubuntu/Debian you can run the following:
 
-    sudo apt-get install libffi-dev
+    sudo apt-get install libffi-dev gcc python-virtualenv python-dev libssl-dev
 
 ### Running buildout
 
