@@ -24,6 +24,8 @@ Make sure you have the FFI development libraries installed, on Ubuntu/Debian you
 
     source bin/activate
 
+    easy_install -U setuptools
+
     python bootstrap.py
 
     ./bin/buildout -v
