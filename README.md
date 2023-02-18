@@ -17,17 +17,10 @@ Make sure you have the FFI development libraries installed, on Ubuntu/Debian you
 ### Running buildout
 
     git clone https://github.com/jcbrand/punjab.buildout.git
-
-    virtualenv punjab.buildout
-
+    python3 -m venv punjab.buildout
     cd punjab.buildout
-
     source bin/activate
-
-    easy_install -U setuptools
-
-    python bootstrap.py
-
+    ./bin/pip install -r requirements.txt
     ./bin/buildout -v
 
 ### Starting Punjab
